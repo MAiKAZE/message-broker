@@ -34,7 +34,6 @@ GET http://{{hostname}}:{{port}}/list/historyMessage
 ```http request
 GET http://{{hostname}}:{{port}}/message/:userId
 userId: String, the id given by Line.
-
-For example: If I want to find all messages from user 'U123', the URL should be 
-http://{{hostname}}:{{port}}/message/U123
+```
+- For example: If I want to find all messages from user 'U123', the URL should be `http://{{hostname}}:{{port}}/message/U123`
 ```
